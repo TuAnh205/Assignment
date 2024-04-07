@@ -1,14 +1,9 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: Arial;
-  padding: 10px;
-  background-color: azure;
-  margin: 0;
 }
 .header {
   display: flex;
@@ -140,7 +135,7 @@ nav {
 }
 
 .content .box .dv {
-  font-size: 15px;
+  font-size: 10px;
 }
 .noidung {
   display: flex;
@@ -149,18 +144,17 @@ nav {
   width: 25%;
 }
 .box {
-  width: 50%;
   border: 10px solid gray;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+
   justify-content: space-between;
 }
+
 .anh {
   width: 100%;
   flex-shrink: 0;
-  height: 70%;
 }
 p {
   font-weight: 500;
@@ -168,11 +162,10 @@ p {
   text-align: justify;
 }
 .tt {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
-  height: 30%;
 }
 .tt > .icon {
   width: 30%;
@@ -181,6 +174,7 @@ p {
 }
 .tin {
   padding: 10px;
+  font-size: 15px;
 }
 .tt2 {
   width: 100%;
@@ -224,7 +218,6 @@ p {
 
 .footer {
   background-color: #e08cc4;
-  margin-top: 5px;
 }
 .footer > .nhomfooter {
   display: flex;
@@ -236,7 +229,7 @@ p {
 .chuquyen {
   text-align: center;
   line-height: 35px;
-  height: 35px;
+  height: auto;
 }
 
 .content {
